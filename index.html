@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240326131308">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20240326131308"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css?_v=20240326131308">
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20240326131308" defer></script> -->
+    <title>Главная</title>
+    <style>
+      body {
+        background: url('../img/walpaper2.png') 58% 17rem / 130%;
+        
+      }
+      @media (max-width: 768px) {
+        body {
+          background: url('../img/walpaper2.png') 58% 17rem / 130%;
+        }
+      }
+     </style>
+</head>
+<body>
+        <header class="header">
+    <div class="container">
+        <div class="header__main">
+            <div class="logo">
+                <picture><source srcset="./img/logo.webp" type="image/webp"><img src="./img/logo.png" alt="" class="logo__img"></picture>
+                <div class="logo__txt">
+                    <span>OtakuOutfit</span>
+                    <p>Магазин фирменных футболок</p>
+                </div>
+            </div>
+            <div class="deliviry">
+                Футболки с <span>Вышивкой</span>
+            </div>
+            <div class="call">
+                <a class="call__tel" href="https://vk.com/otakuoutfit">VK</a>
+            </div>
+        </div>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <li><a class="links__child menu__item" href="./index.html">Футболки</a></li>
+              <li><a class="links__child menu__item" href="./stock.html">Акции</a></li>
+              <li><a class="links__child menu__item links__childTelegram" href="https://t.me/OtakuOutfit_bot">Telegram</a></li>
+              <li><a class="links__child menu__item links__childVK" href="https://vk.com/otakuoutfit">VK</a></li>
+            </ul>
+        </div>
+        <div class="header__second">
+            
+            <div class="links">
+                <a href="./index.html" class="links__child">Футболки</a>
+                <a href="./stock.html" class="links__child">Акции</a>
+                <a href="./contact.html" class="links__child">О нас</a>
+            </div>
+        </div>
+    </div>
+</header>
+        <main id="swup" class="transition-fade">
+            <div class="pizza">
+            <div class="container">
+                <div class="pizza__logo">
+                    <h3>Футболки</h3>
+                </div>
+                <div class="blocks">
+                    <div class="blocks__item" data-path="modal1" >
+                        <div class="image">
+                            <picture><source srcset="./img/shirt-1.webp" type="image/webp"><img src="./img/shirt-1.jpg" alt=""></picture>
+                        </div>
+                        <div class="nameTxt">
+                            <h3>.skeleton_1</h3>
+                            <p>200 г/м2, состав: 95%-хлопок, 5%-лайкра</p>
+                        </div>
+                        <div class="price">
+                            <p>1490 ₽</p>
+                            <button class="price__btn">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="blocks__item" data-path="modal2">
+                        <div class="image">
+                            <picture><source srcset="./img/shirt-2.webp" type="image/webp"><img src="./img/shirt-2.jpg" alt=""></picture>
+                        </div>
+                        <div class="nameTxt">
+                            <h3>.skeleton_2</h3>
+                            <p>200 г/м2, состав: 95%-хлопок, 5%-лайкра</p>
+                        </div>
+                        <div class="price">
+                            <p>1490 ₽</p>
+                            <button class="price__btn">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="blocks__item" data-path="modal3">
+                        <div class="image">
+                            <picture><source srcset="./img/shirt-3.webp" type="image/webp"><img src="./img/shirt-3.jpg" alt=""></picture>
+                        </div>
+                        <div class="nameTxt">
+                            <h3>.gojo</h3>
+                            <p>200 г/м2, состав: 95%-хлопок, 5%-лайкра</p>
+                        </div>
+                        <div class="price">
+                            <p>1490 ₽</p>
+                            <button class="price__btn">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="blocks__item" data-path="modal4">
+                        <div class="image">
+                            <picture><source srcset="./img/shirt-4.webp" type="image/webp"><img src="./img/shirt-4.jpg" alt=""></picture>
+                        </div>
+                        <div class="nameTxt">
+                            <h3>.base</h3>
+                            <p>200 г/м2, состав: 95%-хлопок, 5%-лайкра</p>
+                        </div>
+                        <div class="price">
+                            <p>990 ₽</p>
+                            <button class="price__btn">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modals">
+    <div class="modal-overlay">
+        <div class="modal modal--1" data-target="modal1">
+            <div class="modal__slider slider">
+                <div class="slider-wrap swiper">
+                    <div class="slider-wrapper swiper-wrapper">
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/skeleton1/1.webp" type="image/webp"><img src="./img/tee-shirt/skeleton1/1.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/skeleton1/2.webp" type="image/webp"><img src="./img/tee-shirt/skeleton1/2.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/skeleton1/3.webp" type="image/webp"><img src="./img/tee-shirt/skeleton1/3.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/skeleton1/4.webp" type="image/webp"><img src="./img/tee-shirt/skeleton1/4.jpg" alt=""></picture>
+                        </div>
+                    </div>
+                    <div class="s-button-prev">
+                        <img src="./img/slider/prev.svg" alt="">
+                    </div>
+                    <div class="s-button-next">
+                        <img src="./img/slider/next.svg" alt="">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="modal__txt">
+                <div class="nameTxt">
+                    <h3>.skeleton_1</h3>
+                    <p>200 г/м2, состав: 95%-хлопок, 5%-лайкра</p>
+                </div>
+                <div class="price">
+                    <p>1490 ₽</p>
+                    <a class="price__btn" href="https://t.me/OtakuOutfit_bot">Заказать</a>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal--2" data-target="modal2">
+            <div class="modal__slider slider">
+                <div class="slider-wrap swiper">
+                    <div class="slider-wrapper swiper-wrapper">
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/skeleton2/1.webp" type="image/webp"><img src="./img/tee-shirt/skeleton2/1.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/skeleton2/4.webp" type="image/webp"><img src="./img/tee-shirt/skeleton2/4.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/skeleton2/2.webp" type="image/webp"><img src="./img/tee-shirt/skeleton2/2.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/skeleton2/3.webp" type="image/webp"><img src="./img/tee-shirt/skeleton2/3.jpg" alt=""></picture>
+                        </div>
+                    </div>
+                    <div class="s-button-prev">
+                        <img src="./img/slider/prev.svg" alt="">
+                    </div>
+                    <div class="s-button-next">
+                        <img src="./img/slider/next.svg" alt="">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="modal__txt">
+                <div class="nameTxt">
+                    <h3>.skeleton_2</h3>
+                    <p>200 г/м2, состав: 95%-хлопок, 5%-лайкра</p>
+                </div>
+                <div class="price">
+                    <p>1490 ₽</p>
+                    <a class="price__btn" href="https://t.me/OtakuOutfit_bot">Заказать</a>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal--3" data-target="modal3">
+            <div class="modal__slider slider">
+                <div class="slider-wrap swiper">
+                    <div class="slider-wrapper swiper-wrapper">
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/gojo/1.webp" type="image/webp"><img src="./img/tee-shirt/gojo/1.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/gojo/2.webp" type="image/webp"><img src="./img/tee-shirt/gojo/2.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/gojo/3.webp" type="image/webp"><img src="./img/tee-shirt/gojo/3.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/gojo/4.webp" type="image/webp"><img src="./img/tee-shirt/gojo/4.jpg" alt=""></picture>
+                        </div>
+                    </div>
+                    <div class="s-button-prev">
+                        <img src="./img/slider/prev.svg" alt="">
+                    </div>
+                    <div class="s-button-next">
+                        <img src="./img/slider/next.svg" alt="">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="modal__txt">
+                <div class="nameTxt">
+                    <h3>.gojo</h3>
+                    <p>200 г/м2, состав: 95%-хлопок, 5%-лайкра</p>
+                </div>
+                <div class="price">
+                    <p>1490 ₽</p>
+                    <a class="price__btn" href="https://t.me/OtakuOutfit_bot">Заказать</a>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal--4" data-target="modal4">
+            <div class="modal__slider slider">
+                <div class="slider-wrap swiper">
+                    <div class="slider-wrapper swiper-wrapper">
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/base/1.webp" type="image/webp"><img src="./img/tee-shirt/base/1.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/base/2.webp" type="image/webp"><img src="./img/tee-shirt/base/2.jpg" alt=""></picture>
+                        </div>
+                        <div class="slider-wrapper__item swiper-slide">
+                            <picture><source srcset="./img/tee-shirt/base/3.webp" type="image/webp"><img src="./img/tee-shirt/base/3.jpg" alt=""></picture>
+                        </div>
+                    </div>
+                    <div class="s-button-prev">
+                        <img src="./img/slider/prev.svg" alt="">
+                    </div>
+                    <div class="s-button-next">
+                        <img src="./img/slider/next.svg" alt="">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="modal__txt">
+                <div class="nameTxt">
+                    <h3>.base</h3>
+                    <p>200 г/м2, состав: 95%-хлопок, 5%-лайкра</p>
+                </div>
+                <div class="price">
+                    <p>990 ₽</p>
+                    <a class="price__btn" href="https://t.me/OtakuOutfit_bot">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+            </div>
+        </div>
+        <div class="discount">
+            <div class="container">
+                <h2 class="tittle tittle--color">
+                    Составь свою футболку <span>сам</span>
+                </h2>
+                <!-- <div class="discount__wrap">
+                    <div class="discount__item">
+                        <picture><source srcset="./img/custom-1.webp" type="image/webp"><img src="./img/custom-1.png" alt=""></picture>
+                    </div>
+                    <div class="discount__item">
+                        <picture><source srcset="./img/custom-2.webp" type="image/webp"><img src="./img/custom-2.png" alt=""></picture>
+                    </div>
+                </div> -->
+                <div class="slider-discount slider">
+                    <div class="slider-discount-wrap swiper">
+                        <div class="slider-wrapper swiper-wrapper">
+                            <div class="slider-wrapper__item swiper-slide">
+                                <picture><source srcset="./img/slider/1.webp" type="image/webp"><img src="./img/slider/1.jpg" alt=""></picture>
+                            </div>
+                            <div class="slider-wrapper__item swiper-slide">
+                                <picture><source srcset="./img/slider/2.webp" type="image/webp"><img src="./img/slider/2.jpg" alt=""></picture>
+                            </div>
+                            <div class="slider-wrapper__item swiper-slide">
+                                <picture><source srcset="./img/slider/3.webp" type="image/webp"><img src="./img/slider/3.jpg" alt=""></picture>
+                            </div>
+                            <div class="slider-wrapper__item swiper-slide">
+                                <picture><source srcset="./img/slider/4.webp" type="image/webp"><img src="./img/slider/4.jpg" alt=""></picture>
+                            </div>
+                            <div class="slider-wrapper__item swiper-slide">
+                                <picture><source srcset="./img/slider/5.webp" type="image/webp"><img src="./img/slider/5.jpg" alt=""></picture>
+                            </div>
+                            <div class="slider-wrapper__item swiper-slide">
+                                <picture><source srcset="./img/slider/6.webp" type="image/webp"><img src="./img/slider/6.jpg" alt=""></picture>
+                            </div>
+                            <div class="slider-wrapper__item swiper-slide">
+                                <picture><source srcset="./img/slider/7.webp" type="image/webp"><img src="./img/slider/7.jpg" alt=""></picture>
+                            </div>
+                            <div class="slider-wrapper__item swiper-slide">
+                                <picture><source srcset="./img/slider/8.webp" type="image/webp"><img src="./img/slider/8.jpg" alt=""></picture>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <a class="discount__btn discount__btn--color discount__btn--style" href="https://t.me/OtakuOutfit_bot">Мы поможем!</a>
+
+            </div>
+        </div>
+        <div class="delivery">
+            <div class="container">
+                <h3 class="article">
+                    Оплата и доставка
+                </h3>
+                <div class="tabs">
+                    <div class="tabs__block">
+                        <div class="image">
+                            <picture><source srcset="./img/delivery/magazine.webp" type="image/webp"><img src="./img/delivery/magazine.png" alt=""></picture>
+                        </div>
+                        <p>Пишите нам для заказа в соцсетях</p>
+                    </div>
+                    <div class="tabs__block">
+                        <div class="image">
+                            <picture><source srcset="./img/delivery/voiture.webp" type="image/webp"><img src="./img/delivery/voiture.png" alt=""></picture>
+                        </div>
+                        <p>Работаем по предоплате 50%</p>
+                    </div>
+                    <div class="tabs__block">
+                        <div class="image">
+                            <picture><source srcset="./img/delivery/PC.webp" type="image/webp"><img src="./img/delivery/PC.png" alt=""></picture>
+                        </div>
+                        <p>Срок изготовления от 2 до 4 рабочих дней</p>
+                    </div>
+                    <div class="tabs__block">
+                        <div class="image">
+                            <picture><source srcset="./img/delivery/voiture2.webp" type="image/webp"><img src="./img/delivery/voiture2.png" alt=""></picture>
+                        </div>
+                        <p>Доставка во все регионы</p>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5fed3172e034f2d0e028c8b3c54dd832c509b5fef47844337c5df81cc2693a66&amp;source=constructor" width="100%" height="322" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__one">
+            <div class="logo">
+                <picture><source srcset="./img/logo.webp" type="image/webp"><img src="./img/logo.png" alt="" class="logo__img"></picture>
+                <div class="logo__txt">
+                    <span>OTAKUOUTFIT</span>
+                    МАГАЗИН ФИРМЕННЫХ ФУТБОЛОК
+                </div>
+            </div>
+            <div class="info">
+                <p class="info__link">Мы в соцсетях</p>
+            </div>
+            <div class="social">
+                <a href="https://t.me/OtakuOutfit_bot" class="social__link">Telegram</a>
+                <a href="https://vk.com/otakuoutfit" class="social__link">ВКонтакте</a>
+            </div>
+            <div class="def">
+                <p>OtakuOutfit все права защищены © 2024</p>
+            </div>
+        </div>
+        <div class="footer__two">
+            <div class="quest">
+                <p>Остались вопросы? А мы всегда на связи:</p>
+            </div>
+            <div class="imageSocial">
+                <!-- <a href="#" class="imageSocial__link">
+                    <picture><source srcset="./img/footer/Msg.webp" type="image/webp"><img src="./img/footer/Msg.png" alt=""></picture>
+                </a> -->
+                <a href="https://t.me/OtakuOutfit_bot" class="imageSocial__link">
+                    <picture><source srcset="./img/footer/Telegram.webp" type="image/webp"><img src="./img/footer/Telegram.png" alt=""></picture>
+                </a>
+                <a href="https://vk.com/otakuoutfit" class="imageSocial__link">
+                    <picture><source srcset="./img/footer/Vk.webp" type="image/webp"><img src="./img/footer/Vk.png" alt=""></picture>
+                </a>
+                <a href="https://t.me/OtakuOutfit_bot" class="imageSocial__link">Написать нам</a>
+            </div>
+            <div class="number">
+                <a class="call__tel" href="tel:+78003333662">8 800 333 36 62</a>
+                <!-- <button class="call__btn">заказать звонок</button> -->
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="js/app.min.js?_v=20240326131308" async></script>
+    
+</body>
+</html>
